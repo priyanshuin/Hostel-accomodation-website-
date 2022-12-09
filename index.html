@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>LPU World - Home</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="media_queries.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <marquee>
+                <div class="offers">
+                    <span>LPU HOSTELS</span>
+                    <span>Largest Residential Capacity In the world</span>
+                    <span>Apply Now</span>
+                </div>
+            </marquee>    
+            
+            <div class="header">
+                <img class ="logo "src="logoproject.png">
+                
+                <nav>
+                    <a href="index.html" target="_blank">Home</a>
+                    <a class="" href="#facilities11" >Facilities</a>
+                    <a href="contact.html" target="_blank">Contact</a>
+                    <a href="about.html" target="_blank">About</a>
+                </nav>
+            
+                <div class="actions-full">
+                    <span id="login"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></span>
+                    <span id="signup"><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button></span>
+                    <span><input id="search" type="search" placeholder="Search"></span>
+                    <span><a href="#"><img src="searchicon2.png"></a></span>
+                    <!-- <span><a href="#"><img src="usericon.png"></a></span> -->
+                   <!--<span><a href="#"><img src=""></a></span>
+                    <span><a href="#"><img src="Images/icons/shopping-bag-2x.png"></a></span>-->
+                </div>
+
+                <!--<div class="actions-half">
+                    <span id="login"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></span>
+                    <span id="signup"><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button></span>
+                    <span><a href="#"><img id="img1" src=""></a></span>
+                    <span><a href="#"><img id="img2" src="Images/icons/account-2x.png"></a></span>
+                    <span><a href="#"><img id="img3" src="Images/icons/favorite-2x.png"></a></span>
+                    <span><a href="#"><img id="img4" src="Images/icons/shopping-bag-2x.png"></a></span> 
+                </div>-->
+            </div>
+
+            <div id="id01" class="login-form">
+                <form class="form-content">
+                  <div class="container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close"><img src="cancel.png" width="5%">
+                        </span>
+                        <h1>Login</h1>
+                        <br>
+                        <hr>
+                        <label for="email"><b>Registration No.</b></label>
+                        <input type="email" placeholder="Enter Registration No." name="email" required>
+              
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="password" required>
+                        
+                        <p><a href="#">Forgot Password?</a></p>
+              
+                        <div class="clear">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"><span>Cancel</span></button>
+                        <button type="submit" class="signupbtn"><span>Login</span></button>
+                        </div>
+                  </div>
+                </form>
+              </div>
+
+            <div id="id02" class="signup-form">
+                <form class="form-content">
+                  <div class="container">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close"><img src="cancel.png" width="5%">
+                        </span>
+                        <h1>Sign Up</h1>
+                        
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" placeholder="Enter Email" name="email" required>
+              
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="password" required>
+              
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              
+                        <label>
+                        <input type="checkbox" checked="checked" name="remember">
+                        <span id="remember-pwd">Remember me</span>
+                        </label>
+              
+                        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+              
+                        <div class="clear">
+                        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn"><span>Cancel</span></button>
+                        <button type="submit" class="signupbtn"><span>Sign Up</span></button>
+                        </div>
+                  </div>
+                </form>
+              </div>
+        </header>
+
+
+        <main>
+            <article class="h-container">
+            <div class="main-heading">
+                <h1>Welcome to Hostel World</h1>
+                <h3>- where Dreams turn to Reality.</h3>
+            </div>
+            </article>
+
+
+
+            <div class="main-carousel">
+                <div class="carousel-cell">...</div>
+
+            <div>
+                <h1 class="a-heading">LPU Hostels</h1>
+                <div class="a-images main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                    <video src="videohostel.mp4" width="100%" height="100%" controls>
+                    </video>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="a-heading">Hostel Type</h1>
+                <div class="a-text">
+                
+                </div>
+                <div class="a-text">
+                
+                </div>
+            </div>
+
+            <div class="choice">
+                <h2 class="home-u-heading"></h2>
+                <div class="home-u-img-container">
+                <span>
+                    <a href="men.html"><img src="LPUHOSTELS3.PNG" alt=""></a>
+                    <p style="text-align: center;">Boys Hostel</p>
+                </span>
+                <span>
+                    <a href = "women.html"><img src="girls hostels2.jpeg" alt=""></a>
+                    <p style="text-align: center;">Girls Hostel</p>
+                </span>
+                </div>
+            </div>
+                        
+            <div>
+                <h1 class="a-heading" id="facilities11">CITY IN A CAMPUS</h1>
+                <div class="a-img-container">
+                    <img src="Images/aesthetics/img7.jpg" alt="" width="100%" height="auto">
+                </div>
+            </div>
+
+            <section class="home-desc">
+                <div>
+                    <h3 class="home-desc-heading">Clean & Green Environment</h3>
+                    <p>
+                        LPU is one of the greenest campuses in the country. The greenery makes for a great learning environment and promotes creativity!
+
+                    </p><br>
+                    <p>
+                    
+                    </p>  
+                    <h3 class="home-desc-heading">Access to Additional Residential Facilities</h3>
+                    <p>Elaborate residential facilities including shopping areas, gyms, food courts, green and open spaces to ensure comfort and convenience of students staying in the campus.
+
+                    </p>  
+                    <h3 class="home-desc-heading">Safe & Secure </h3>
+                    <p>Manned by over 400 full time security officials, thousands of security cameras, LPU is one of the safest campuses in the world. The University has its very own fire station department. LPU also has Turnstile gates at major entry/exit points as well as boom barriers for vehicles ensuring that every movement is monitored.</p>
+                </div>
+
+                <div>
+                    <h3 class="home-desc-heading">24*7 Library Access</h3>
+                    <p>
+                        
+LPU offers a huge Library System with 11 branches. There are more than 20 lakh books and e-books on all subject fields. Library system subscribes number of journals, magazines and newspapers.
+
+                    </p><br>
+                    
+                    <h3 class="home-desc-heading">Utilize Your Precious Time</h3>
+                    <p>The residential faculty & staff provide after-hours guidance and support to the students, in case they need any academic or life advice. Students have opportunity to become independent! Students residing in the campus can earn while studying by taking up part time jobs in labs, library, sales, shopping mall etc.
+                    </p><br>
+                    <h3 class="home-desc-heading">Access of Indoor Sports Stadium</h3>
+                    <p>With facilities like swimming pool, warm up pool, shooting range, squash court, badminton court, a volleyball court, basketball court etc. at 50% subsidized Charges .
+                    </p>
+                    
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="top-divide">
+                <div>
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reception</a></li>
+                        <li><a href="#">Warden Office</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <ul>
+                        <li>LOVELY PROFESSIONAL UNIVERSITY</li>
+                        <li>Jalandhar-Dehli, G.T Road</li>
+                        <li>Phagwara,Punjab (INDIA)-144411</li>
+                        <li>WEBSITE: https://www.lpu.in</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>More Inspiration</h3>
+                    <hr>
+                    <div class="footer-icons">
+                        <span><a href="https://www.facebook.com/LPUUniversity/" target="_blank"><img src="facebook.webp"></a></span>
+
+                        <span><a href="https://github.com/Lovely-Professional-University-CSE" target="_blank"><img src="github.png"></a></span>
+                        <span><a href="https://www.instagram.com/lpuuniversity/?hl=en" target="_blank"><img src="insta.png"></a></span>
+                        <span><a href="https://www.linkedin.com/school/lovely-professional-university/" target="_blank"><img src="linkedin.png"></a></span>
+                        <span><a href="https://twitter.com/lpuuniversity?s=20" target="_blank"> <img src="tooter.webp" alt=""></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-divide">
+                <span>&copy; Lovely-Professional-University, All Rights Reserved.</span>
+                <div class="legal">
+                    <span><a href="#">Privacy Policy</a></span>
+                    <span><a href="#">Terms and Conditions</a></span>
+                    <span><a href="#">Terms of Use</a></span>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // Getting the form
+            var modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+        </script> 
+        
+
+    
+    </body>
+
+</html>
